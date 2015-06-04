@@ -197,7 +197,7 @@ public class PluginActivityControl implements PluginActivityCallback
     public void callOnStart()
 	{
         //getPluginRef().call("onStart");
-		i.callActivityOnStop(plugin);
+		i.callActivityOnStart(plugin);
     }
 
     /**
